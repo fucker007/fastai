@@ -6,7 +6,7 @@
 #
 #     $ conda deactivate
 #安装pytorch不成功
-$get -c -t 0 https://conda.anaconda.org/pytorch/linux-64/pytorch-1.1.0-py3.6_cuda10.0.130_cudnn7.5.1_0.tar.bz2
+$wget -c -t 0 https://conda.anaconda.org/pytorch/linux-64/pytorch-1.1.0-py3.6_cuda10.0.130_cudnn7.5.1_0.tar.bz2
 $screen -S fucker　#创建一个防止断开连接的对象窗口
 #安装下的包
 $conda install --use-local pytorch-1.1.0-py3.6_cuda10.0.130_cudnn7.5.1_0.tar.bz2
